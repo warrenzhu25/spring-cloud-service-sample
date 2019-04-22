@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: user-service
+
+  cloud:
+    azure:
+      redis:
+        enabled: false # Workaround for spring cloud azure redis config bug
